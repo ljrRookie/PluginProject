@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 import android.util.Log;
 
 import com.ljr.base.Constant;
+import com.ljr.plugin_package.base.BaseActivity;
 
 public class TestActivity extends BaseActivity {
 

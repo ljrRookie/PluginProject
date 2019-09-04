@@ -1,4 +1,4 @@
-package com.ljr.plugin_package;
+package com.ljr.plugin_package.base;
 
 import android.annotation.SuppressLint;
 import android.app.Service;

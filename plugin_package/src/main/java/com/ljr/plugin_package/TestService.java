@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.util.Log;
 
 import com.ljr.base.Constant;
+import com.ljr.plugin_package.base.BaseService;
 
 public class TestService extends BaseService {
 
