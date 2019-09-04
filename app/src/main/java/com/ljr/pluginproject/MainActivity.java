@@ -11,6 +11,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Toast;
 
+import com.ljr.base.Constant;
+
 import java.io.File;
 
 public class MainActivity extends AppCompatActivity {
@@ -19,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.e(Constant.TAG, "宿主App--MainActivity_onCreate");
     }
 
     /**
@@ -57,4 +60,5 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
+
 }

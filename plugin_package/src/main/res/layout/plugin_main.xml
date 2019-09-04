@@ -28,5 +28,12 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:text="插件内部跳转插件的Activity"
         />
-
+    <Button
+        app:layout_constraintTop_toBottomOf="@id/bt_start_activity"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/bt_start_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="插件内部启动插件的Service"
+        />
 </android.support.constraint.ConstraintLayout>
