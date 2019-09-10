@@ -19,6 +19,17 @@
             </intent-filter>
         </activity>
         <!-- 在插件里面不用配置 Activity -->
+
+        <!-- 静态注册的广播 -->
+        <receiver android:name=".StaticReceiver">
+
+            <intent-filter>
+
+                <action android:name="plugin.static_receiver" />
+
+            </intent-filter>
+
+        </receiver>
     </application>
 
 </manifest>
